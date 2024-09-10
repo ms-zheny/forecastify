@@ -14,7 +14,7 @@ import { FormControl, FormsModule, ReactiveFormsModule, Validators } from '@angu
 					<p><i class="bi bi-robot icon-large"></i></p>
 				</div>
 				<div class="text">
-					<p>Hello, how can I assist you today?</p>
+					<p>Hello, forecastify chatbot, how can I assist you today?</p>
 				</div>
 			</div>
 

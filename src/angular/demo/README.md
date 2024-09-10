@@ -1,4 +1,4 @@
-# Demo
+# forecastify app
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.3.
 
@@ -9,7 +9,7 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The appli
 
 ## Microsoft Authentication Library for Angular
 
-`https://github.com/AzureAD/microsoft-authentication-library-for-js/blob/dev/lib/msal-angular/README.md#prerequisites`
+`https://github.com/AzureAD/microsoft-authentication-library-for-js`
 
 ## Prerequisites
 

@@ -9,7 +9,9 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The appli
 
 ## Microsoft Authentication Library for Angular
 
-`https://github.com/AzureAD/microsoft-authentication-library-for-js`
+```
+https://github.com/AzureAD/microsoft-authentication-library-for-js
+```
 
 ## Prerequisites
 

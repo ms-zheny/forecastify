@@ -9,10 +9,11 @@ import { IPublicClientApplication, PublicClientApplication, InteractionType, Bro
 import { MsalInterceptor, MSAL_INSTANCE, MsalInterceptorConfiguration, MsalGuardConfiguration, 
     MSAL_GUARD_CONFIG, MSAL_INTERCEPTOR_CONFIG, MsalService, MsalGuard, MsalBroadcastService,} from '@azure/msal-angular';
 
+import { MarkdownModule } from 'ngx-markdown';
 // app routes
 import { routes } from './app.routes';
 // env
-import { environment } from '../environments/environment.development';
+import { environment } from '../environments/environment';
 
 // app config
 export const appConfig: ApplicationConfig = {
@@ -21,6 +22,7 @@ export const appConfig: ApplicationConfig = {
     provideRouter(routes),
     importProvidersFrom(
       BrowserModule,
+      MarkdownModule.forRoot(),
     ),
     provideNoopAnimations(),
     // register msal interceptor
@@ -80,6 +82,11 @@ export function MSALInterceptorConfigFactory(): MsalInterceptorConfiguration {
   protectedResourceMap.set(
     environment.apiConfig.uri,
     environment.apiConfig.scopes
+  );
+
+  protectedResourceMap.set(
+    environment.apiConfig2.uri,
+    environment.apiConfig2.scopes
   );
 
   return {

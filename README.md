@@ -1,4 +1,4 @@
-# Forecastify
+# FSI - forcast
 
 ## Objective
 This project aims to create a cutting-edge financial forecasting solution specifically designed for the retail industry. By harnessing the power of predictive analytics and AI, the solution will drive data-driven decision-making, enabling retailers to forecast revenue, expenses, cash flow, and demand with greater accuracy. This will empower retailers to anticipate market trends, optimize inventory, and streamline operational costs. 

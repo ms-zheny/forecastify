@@ -15,7 +15,7 @@ import { MatButtonModule } from '@angular/material/button';
     <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top border-bottom" style="z-index: 99;">
       <div class="container-fluid">
         	<a  class="navbar-brand" routerLink="/">
-            <i class="bi bi-flower1 icon-large me-2"></i> forecastify
+            <i class="bi bi-flower1 icon-large me-2"></i> FSI - forcast
           </a> 
         <button class="navbar-toggler" type="button" (click)="toggleNav()">
           <span class="navbar-toggler-icon"></span>
